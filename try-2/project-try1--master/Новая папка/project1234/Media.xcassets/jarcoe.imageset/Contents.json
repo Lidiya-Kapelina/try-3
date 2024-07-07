@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Jarkoe_recept_v_duxovke_16_500x3500-500x333.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
