@@ -18,7 +18,7 @@ class MainViewController:UIViewController, UITextFieldDelegate{
     @IBOutlet weak var kol: UITextField!
     @IBOutlet weak var calories: UITextField!
     @IBOutlet weak var addDishTextField: UITextField!
-    @IBOutlet weak var addButton: UIButton! // Кнопка "Добавить"
+    @IBOutlet weak var addButton: UIButton!
     @IBAction func deleteButton(_ sender: Any) {
           var dict = UserDefaults.standard.dictionary(forKey: User.shared.login ?? "0") ?? [:]
           dict["sumCalories"] = 0
