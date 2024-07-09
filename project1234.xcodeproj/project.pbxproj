@@ -13,7 +13,6 @@
 		834D02DF2C3A0297006A5C1B /* AdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834D02DE2C3A0297006A5C1B /* AdCell.xib */; };
 		834D03042C3A0F4A006A5C1B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D03032C3A0F4A006A5C1B /* Media.xcassets */; };
 		83663E092C3AA5060046290A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83663E082C3AA5060046290A /* Main.storyboard */; };
-		8378DEFF2C3C9E9300F4A4A7 /* CountErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378DEFE2C3C9E9300F4A4A7 /* CountErrorViewController.swift */; };
 		83938ACD2C3A38BE006EE060 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83938ACC2C3A38BE006EE060 /* ErrorViewController.swift */; };
 		83938ACF2C3A38C5006EE060 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83938ACE2C3A38C5006EE060 /* MainViewController.swift */; };
 		83938AD12C3A38D1006EE060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83938AD02C3A38D1006EE060 /* SceneDelegate.swift */; };
@@ -34,7 +33,6 @@
 		834D02DE2C3A0297006A5C1B /* AdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdCell.xib; sourceTree = "<group>"; };
 		834D03032C3A0F4A006A5C1B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		83663E082C3AA5060046290A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8378DEFE2C3C9E9300F4A4A7 /* CountErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountErrorViewController.swift; sourceTree = "<group>"; };
 		83938ACC2C3A38BE006EE060 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		83938ACE2C3A38C5006EE060 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		83938AD02C3A38D1006EE060 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 				83938ACE2C3A38C5006EE060 /* MainViewController.swift */,
 				83D1597B2C3C14A700A3B189 /* AdCell2 */,
 				83979A502C384146001A7836 /* AppDelegate.swift */,
-				8378DEFE2C3C9E9300F4A4A7 /* CountErrorViewController.swift */,
 				83938ACC2C3A38BE006EE060 /* ErrorViewController.swift */,
 				83979A4F2C384145001A7836 /* project1234-Bridging-Header.h */,
 				8394CC542C3C7EE6008BBCEB /* MainTabController.swift */,
@@ -195,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8378DEFF2C3C9E9300F4A4A7 /* CountErrorViewController.swift in Sources */,
 				834D02DB2C39EE7C006A5C1B /* AdCell.swift in Sources */,
 				83979A512C384146001A7836 /* AppDelegate.swift in Sources */,
 				8394CC552C3C7EE6008BBCEB /* MainTabController.swift in Sources */,
