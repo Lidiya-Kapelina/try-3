@@ -50,12 +50,13 @@ class MainViewController:UIViewController, UITextFieldDelegate{
             if let newKol = kol.text, !newKol.isEmpty, let kolInt = Int(newKol) {
                 if let newCalories = calories.text, !newCalories.isEmpty, let caloriesInt = Int(newCalories) {
                     texts.append(newDish)
-                    addDishTextField.text = "Добавить блюдо"
+                    addDishTextField.placeholder = "Добавить блюдо"
+                    calories.placeholder = "Калорийность на 100г"
+                    kol.placeholder = "Вес"       
                     tableView.reloadData()
                     cal = caloriesInt
-                    calories.text = "Калорийность на 100г"
                     col = kolInt
-                    kol.text = "Вес"                }
+                                }
                 else {
                     showError()
                 }       
@@ -86,13 +87,14 @@ class MainViewController:UIViewController, UITextFieldDelegate{
   }
 
 
-    private func showError() {
-        /*   let countErrorViewController = CountErrorViewController()
-         present(countErrorViewController, animated: true, completion: nil)
-         */
-        let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "CountErrorViewController") as! CountErrorViewController
-        self.navigationController?.pushViewController(storyboard, animated: true)    }
-}
+        private func showError() {
+               let alert = UIAlertController(title: "Ошибка ввода",
+                                             message: "Проверьте правильность введенных данных",
+                                             preferredStyle: .alert)
+               alert.addAction(UIAlertAction(title: "OK", style: .default))
+               present(alert, animated: true)
+           }
+       }
 
 extension MainViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
