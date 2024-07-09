@@ -28,17 +28,15 @@ class ProfileViewController: UIViewController,UITextFieldDelegate{
         contactData.text = UserDefaults.standard.dictionary(forKey: User.shared.login ?? "0")?["contactData"] as? String
     }
     
-    // Обработчик нажатия на кнопку "Изменить"
+    
     @IBAction func changeButton(_ sender: Any) {
-        // Сохраняем изменения в UserDefaults
+    
         var dict = UserDefaults.standard.dictionary(forKey: User.shared.login ?? "0") ?? [:]
         dict["contactData"] = contactData.text
         dict["name"] = name.text
         dict["weight"] = weight.text
         dict["dateOfBirth"] = dateOfBirth.text
         UserDefaults.standard.setValue(dict, forKey: User.shared.login ?? "0")
-        
-        // Обновляем текст в text fields
         updateTextFields()
     }
     
