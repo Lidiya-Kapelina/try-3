@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Smuzi-boul-s-persikami-i-yagodami-500x350-500x333-1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
